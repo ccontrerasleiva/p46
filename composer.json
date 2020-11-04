@@ -1,0 +1,20 @@
+{
+    "name": "quickex/pago46",
+    "description": "Payment Method library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Contreras",
+            "email": "ccontrerasl@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+    "autoload": {
+        "psr-4":{
+            "quickex\\Pago46\\":"src/"
+        }
+    }
+}
